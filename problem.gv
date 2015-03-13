@@ -1,0 +1,44 @@
+digraph Neo {
+  node [
+    fontsize = "8"
+    shape = "Mrecord"
+    fontname = "Bitstream Vera Sans"
+  ]
+  edge [
+    fontname = "Bitstream Vera Sans"
+    fontsize = "8"
+  ]
+  N0 [
+    label = "{Node\[0\]: Person|'name' = 'A' : String\l}"
+  ]
+  N0 -> N1 [
+    label = "KNOWS\n'prob' = 0.5 : double\l"
+  ]
+  N0 -> N3 [
+    label = "KNOWS\n'prob' = 0.4 : double\l"
+  ]
+  N1 [
+    label = "{Node\[1\]: Person|'name' = 'B' : String\l}"
+  ]
+  N1 -> N2 [
+    label = "OWNS\n'prob' = 0.1 : double\l"
+  ]
+  N2 [
+    label = "{Node\[2\]: Dog|'name' = 'C' : String\l}"
+  ]
+  N3 [
+    label = "{Node\[3\]: Person|'name' = 'D' : String\l}"
+  ]
+  N3 -> N1 [
+    label = "KNOWS\n'prob' = 0.5 : double\l"
+  ]
+  N3 -> N4 [
+    label = "OWNS\n'prob' = 0.7 : double\l"
+  ]
+  N4 [
+    label = "{Node\[4\]: Dog|'name' = 'E' : String\l}"
+  ]
+  N4 -> N2 [
+    label = "KNOWS\n'prob' = 0.7 : double\l"
+  ]
+}

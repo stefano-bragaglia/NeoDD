@@ -1,0 +1,98 @@
+digraph Neo {
+  node [
+    fontsize = "8"
+    shape = "Mrecord"
+    fontname = "Bitstream Vera Sans"
+  ]
+  edge [
+    fontname = "Bitstream Vera Sans"
+    fontsize = "8"
+  ]
+  N0 [
+    label = "{Node\[0\]'reference' = '0' : String\l}"
+  ]
+  N1 [
+    label = "{Node\[1\]'reference' = '1' : String\l}"
+  ]
+  N2 [
+    label = "{Node\[2\]'reference' = 5 : long\l}"
+  ]
+  N2 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.30000000000000004 : double\l"
+  ]
+  N2 -> N1 [
+    label = "HI_CHILD\n'prob' = 0.7 : double\l"
+  ]
+  N3 [
+    label = "{Node\[3\]'reference' = 4 : long\l}"
+  ]
+  N3 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.30000000000000004 : double\l"
+  ]
+  N3 -> N2 [
+    label = "HI_CHILD\n'prob' = 0.7 : double\l"
+  ]
+  N4 [
+    label = "{Node\[4\]'reference' = 3 : long\l}"
+  ]
+  N4 -> N3 [
+    label = "LO_CHILD\n'prob' = 0.5 : double\l"
+  ]
+  N4 -> N1 [
+    label = "HI_CHILD\n'prob' = 0.5 : double\l"
+  ]
+  N5 [
+    label = "{Node\[5\]'reference' = 2 : long\l}"
+  ]
+  N5 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.6 : double\l"
+  ]
+  N5 -> N4 [
+    label = "HI_CHILD\n'prob' = 0.4 : double\l"
+  ]
+  N6 [
+    label = "{Node\[6\]'reference' = 3 : long\l}"
+  ]
+  N6 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.5 : double\l"
+  ]
+  N6 -> N1 [
+    label = "HI_CHILD\n'prob' = 0.5 : double\l"
+  ]
+  N7 [
+    label = "{Node\[7\]'reference' = 2 : long\l}"
+  ]
+  N7 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.6 : double\l"
+  ]
+  N7 -> N6 [
+    label = "HI_CHILD\n'prob' = 0.4 : double\l"
+  ]
+  N8 [
+    label = "{Node\[8\]'reference' = 1 : long\l}"
+  ]
+  N8 -> N5 [
+    label = "LO_CHILD\n'prob' = 0.9 : double\l"
+  ]
+  N8 -> N7 [
+    label = "HI_CHILD\n'prob' = 0.1 : double\l"
+  ]
+  N9 [
+    label = "{Node\[9\]'reference' = 1 : long\l}"
+  ]
+  N9 -> N0 [
+    label = "LO_CHILD\n'prob' = 0.9 : double\l"
+  ]
+  N9 -> N1 [
+    label = "HI_CHILD\n'prob' = 0.1 : double\l"
+  ]
+  N10 [
+    label = "{Node\[10\]'reference' = 0 : long\l}"
+  ]
+  N10 -> N8 [
+    label = "LO_CHILD\n'prob' = 0.5 : double\l"
+  ]
+  N10 -> N9 [
+    label = "HI_CHILD\n'prob' = 0.5 : double\l"
+  ]
+}

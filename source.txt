@@ -1,0 +1,604 @@
+
+edge(hgnc_620,entrezprotein_33339674) :- choice(1,1,663).
+edge(entrezprotein_33339674,hgnc_620) :- choice(1,1,663).
+
+edge(hgnc_9165,pubmed_15214843) :- choice(2,1,504).
+edge(pubmed_15214843,hgnc_9165) :- choice(2,1,504).
+
+edge(hgnc_621,entrezprotein_3342564) :- choice(3,1,435).
+edge(entrezprotein_3342564,hgnc_621) :- choice(3,1,435).
+
+edge(uniprot_o00213,go_go_0001540) :- choice(4,1,672).
+edge(go_go_0001540,uniprot_o00213) :- choice(4,1,672).
+
+edge(hgnc_983,pubmed_2322535) :- choice(5,1,103).
+edge(pubmed_2322535,hgnc_983) :- choice(5,1,103).
+
+edge(hgnc_620,pubmed_9136074) :- choice(6,1,843).
+edge(pubmed_9136074,hgnc_620) :- choice(6,1,843).
+
+edge(uniprot_o75882,pubmed_14760718) :- choice(7,1,747).
+edge(pubmed_14760718,uniprot_o75882) :- choice(7,1,747).
+
+edge(hgnc_2313,pubmed_14760718) :- choice(8,1,627).
+edge(pubmed_14760718,hgnc_2313) :- choice(8,1,627).
+
+edge(hgnc_1358,pubmed_14760718) :- choice(9,1,749).
+edge(pubmed_14760718,hgnc_1358) :- choice(9,1,749).
+
+edge(hgnc_5394,entrezprotein_182607) :- choice(10,1,395).
+edge(entrezprotein_182607,hgnc_5394) :- choice(10,1,395).
+
+edge(hgnc_9087,pubmed_7622043) :- choice(11,1,347).
+edge(pubmed_7622043,hgnc_9087) :- choice(11,1,347).
+
+edge(hgnc_983,pubmed_1769657) :- choice(12,1,X).
+edge(pubmed_1769657,hgnc_983) :- choice(12,1,X).
+1 { choice(12,1,103), choice(12,2,2324) } 1.
+edge(hgnc_620,pubmed_2507928) :- choice(13,1,X).
+edge(pubmed_2507928,hgnc_620) :- choice(13,1,X).
+1 { choice(13,1,708), choice(13,2,679) } 1.
+edge(hgnc_2313,entrezprotein_27769064) :- choice(14,1,X).
+edge(entrezprotein_27769064,hgnc_2313) :- choice(14,1,X).
+1 { choice(14,1,297), choice(14,2,1360) } 1.
+edge(hgnc_620,entrezprotein_4507111) :- choice(15,1,X).
+edge(entrezprotein_4507111,hgnc_620) :- choice(15,1,X).
+1 { choice(15,1,762), choice(15,2,629) } 1.
+edge(hgnc_11140,entrezprotein_4507111) :- choice(16,1,X).
+edge(entrezprotein_4507111,hgnc_11140) :- choice(16,1,X).
+1 { choice(16,1,500), choice(16,2,933) } 1.
+edge(pubmed_9784842,hgnc_19695) :- choice(17,1,X).
+edge(hgnc_19695,pubmed_9784842) :- choice(17,1,X).
+1 { choice(17,1,371), choice(17,2,1170) } 1.
+edge(hgnc_5394,entrezprotein_4504579) :- choice(18,1,X).
+edge(entrezprotein_4504579,hgnc_5394) :- choice(18,1,X).
+1 { choice(18,1,395), choice(18,2,1120) } 1.
+edge(hgnc_9165,pubmed_15122323) :- choice(19,1,X).
+edge(pubmed_15122323,hgnc_9165) :- choice(19,1,X).
+1 { choice(19,1,430), choice(19,2,1052) } 1.
+edge(hgnc_620,pubmed_14992810) :- choice(20,1,X).
+edge(pubmed_14992810,hgnc_620) :- choice(20,1,X).
+1 { choice(20,1,663), choice(20,2,724) } 1.
+edge(hgnc_620,entrezprotein_4885433) :- choice(21,1,X).
+edge(entrezprotein_4885433,hgnc_620) :- choice(21,1,X).
+1 { choice(21,1,780), choice(21,2,613) } 1.
+edge(hgnc_620,pubmed_15689542) :- choice(22,1,X).
+edge(pubmed_15689542,hgnc_620) :- choice(22,1,X).
+1 { choice(22,1,663), choice(22,2,724) } 1.
+edge(hgnc_620,pubmed_15485850) :- choice(23,1,X).
+edge(pubmed_15485850,hgnc_620) :- choice(23,1,X).
+1 { choice(23,1,663), choice(23,2,724) } 1.
+edge(hgnc_620,pubmed_16252002) :- choice(24,1,X).
+edge(pubmed_16252002,hgnc_620) :- choice(24,1,X).
+1 { choice(24,1,663), choice(24,2,724) } 1.
+edge(uniprot_o00213,pubmed_9799084) :- choice(25,1,X).
+edge(pubmed_9799084,uniprot_o00213) :- choice(25,1,X).
+1 { choice(25,1,515), choice(25,2,910) } 1.
+edge(hgnc_9165,uniprot_o43236) :- choice(26,1,X).
+edge(uniprot_o43236,hgnc_9165) :- choice(26,1,X).
+1 { choice(26,1,618), choice(26,2,775) } 1.
+edge(hgnc_620,pubmed_15033805) :- choice(27,1,X).
+edge(pubmed_15033805,hgnc_620) :- choice(27,1,X).
+1 { choice(27,1,663), choice(27,2,724) } 1.
+edge(hgnc_620,pubmed_12529377) :- choice(28,1,X).
+edge(pubmed_12529377,hgnc_620) :- choice(28,1,X).
+1 { choice(28,1,738), choice(28,2,650) } 1.
+edge(hgnc_9087,pubmed_12529377) :- choice(29,1,X).
+edge(pubmed_12529377,hgnc_9087) :- choice(29,1,X).
+1 { choice(29,1,421), choice(29,2,1067) } 1.
+edge(uniprot_q9h651,pubmed_11278849) :- choice(30,1,X).
+edge(pubmed_11278849,uniprot_q9h651) :- choice(30,1,X).
+1 { choice(30,1,439), choice(30,2,1036) } 1.
+edge(uniprot_q99mb3,pubmed_11278849) :- choice(31,1,X).
+edge(pubmed_11278849,uniprot_q99mb3) :- choice(31,1,X).
+1 { choice(31,1,494), choice(31,2,943) } 1.
+edge(uniprot_q9bx73,pubmed_11278849) :- choice(32,1,X).
+edge(pubmed_11278849,uniprot_q9bx73) :- choice(32,1,X).
+1 { choice(32,1,494), choice(32,2,943) } 1.
+edge(hgnc_11140,pubmed_11588588) :- choice(33,1,X).
+edge(pubmed_11588588,hgnc_11140) :- choice(33,1,X).
+1 { choice(33,1,402), choice(33,2,1107) } 1.
+edge(entrezprotein_48146339,hgnc_9165) :- choice(34,1,X).
+edge(hgnc_9165,entrezprotein_48146339) :- choice(34,1,X).
+1 { choice(34,1,430), choice(34,2,1052) } 1.
+edge(entrezprotein_4507111,hgnc_9165) :- choice(35,1,X).
+edge(hgnc_9165,entrezprotein_4507111) :- choice(35,1,X).
+1 { choice(35,1,528), choice(35,2,891) } 1.
+edge(entrezprotein_4758942,hgnc_9165) :- choice(36,1,X).
+edge(hgnc_9165,entrezprotein_4758942) :- choice(36,1,X).
+1 { choice(36,1,528), choice(36,2,891) } 1.
+edge(entrezprotein_17986245,hgnc_9165) :- choice(37,1,X).
+edge(hgnc_9165,entrezprotein_17986245) :- choice(37,1,X).
+1 { choice(37,1,430), choice(37,2,1052) } 1.
+edge(entrezprotein_17986247,hgnc_9165) :- choice(38,1,X).
+edge(hgnc_9165,entrezprotein_17986247) :- choice(38,1,X).
+1 { choice(38,1,430), choice(38,2,1052) } 1.
+edge(hgnc_2313,pubmed_9628828) :- choice(39,1,X).
+edge(pubmed_9628828,hgnc_2313) :- choice(39,1,X).
+1 { choice(39,1,430), choice(39,2,1052) } 1.
+edge(hgnc_11140,pubmed_9806846) :- choice(40,1,X).
+edge(pubmed_9806846,hgnc_11140) :- choice(40,1,X).
+1 { choice(40,1,476), choice(40,2,971) } 1.
+edge(hgnc_620,pubmed_12146796) :- choice(41,1,X).
+edge(pubmed_12146796,hgnc_620) :- choice(41,1,X).
+1 { choice(41,1,663), choice(41,2,724) } 1.
+edge(hgnc_620,pubmed_10460257) :- choice(42,1,X).
+edge(pubmed_10460257,hgnc_620) :- choice(42,1,X).
+1 { choice(42,1,833), choice(42,2,571) } 1.
+edge(hgnc_620,entrezprotein_4502169) :- choice(43,1,X).
+edge(entrezprotein_4502169,hgnc_620) :- choice(43,1,X).
+1 { choice(43,1,762), choice(43,2,629) } 1.
+edge(hgnc_24142,entrezprotein_4502167) :- choice(44,1,X).
+edge(entrezprotein_4502167,hgnc_24142) :- choice(44,1,X).
+1 { choice(44,1,628), choice(44,2,763) } 1.
+edge(hgnc_620,pubmed_9223340) :- choice(45,1,X).
+edge(pubmed_9223340,hgnc_620) :- choice(45,1,X).
+1 { choice(45,1,738), choice(45,2,650) } 1.
+edge(pubmed_11278849,entrezgene_94043) :- choice(46,1,X).
+edge(entrezgene_94043,pubmed_11278849) :- choice(46,1,X).
+1 { choice(46,1,502), choice(46,2,930) } 1.
+edge(hgnc_621,pubmed_12740388) :- choice(47,1,X).
+edge(pubmed_12740388,hgnc_621) :- choice(47,1,X).
+1 { choice(47,1,508), choice(47,2,920) } 1.
+edge(hgnc_983,pubmed_12003252) :- choice(48,1,X).
+edge(pubmed_12003252,hgnc_983) :- choice(48,1,X).
+1 { choice(48,1,59), choice(48,2,2863) } 1.
+edge(hgnc_620,pubmed_12435726) :- choice(49,1,X).
+edge(pubmed_12435726,hgnc_620) :- choice(49,1,X).
+1 { choice(49,1,708), choice(49,2,679) } 1.
+edge(hgnc_9165,uniprot_q6iap3) :- choice(50,1,X).
+edge(uniprot_q6iap3,hgnc_9165) :- choice(50,1,X).
+1 { choice(50,1,547), choice(50,2,865) } 1.
+edge(hgnc_2313,entrezprotein_51173528) :- choice(51,1,X).
+edge(entrezprotein_51173528,hgnc_2313) :- choice(51,1,X).
+1 { choice(51,1,297), choice(51,2,1360) } 1.
+edge(hgnc_620,entrezprotein_345131) :- choice(52,1,X).
+edge(entrezprotein_345131,hgnc_620) :- choice(52,1,X).
+1 { choice(52,1,663), choice(52,2,724) } 1.
+edge(hgnc_620,pubmed_15809056) :- choice(53,1,X).
+edge(pubmed_15809056,hgnc_620) :- choice(53,1,X).
+1 { choice(53,1,708), choice(53,2,679) } 1.
+edge(pubmed_11812782,hgnc_11140) :- choice(54,1,X).
+edge(hgnc_11140,pubmed_11812782) :- choice(54,1,X).
+1 { choice(54,1,476), choice(54,2,971) } 1.
+edge(pubmed_9163350,hgnc_11140) :- choice(55,1,X).
+edge(hgnc_11140,pubmed_9163350) :- choice(55,1,X).
+1 { choice(55,1,476), choice(55,2,971) } 1.
+edge(entrezprotein_4502167,hgnc_11140) :- choice(56,1,X).
+edge(hgnc_11140,entrezprotein_4502167) :- choice(56,1,X).
+1 { choice(56,1,716), choice(56,2,671) } 1.
+edge(hgnc_620,pubmed_9444352) :- choice(57,1,X).
+edge(pubmed_9444352,hgnc_620) :- choice(57,1,X).
+1 { choice(57,1,663), choice(57,2,724) } 1.
+edge(hgnc_620,pubmed_1707846) :- choice(58,1,X).
+edge(pubmed_1707846,hgnc_620) :- choice(58,1,X).
+1 { choice(58,1,663), choice(58,2,724) } 1.
+edge(hgnc_1358,pubmed_4018030) :- choice(59,1,X).
+edge(pubmed_4018030,hgnc_1358) :- choice(59,1,X).
+1 { choice(59,1,464), choice(59,2,992) } 1.
+edge(hgnc_620,pubmed_15985437) :- choice(60,1,X).
+edge(pubmed_15985437,hgnc_620) :- choice(60,1,X).
+1 { choice(60,1,663), choice(60,2,724) } 1.
+edge(hgnc_620,pubmed_15748844) :- choice(61,1,X).
+edge(pubmed_15748844,hgnc_620) :- choice(61,1,X).
+1 { choice(61,1,708), choice(61,2,679) } 1.
+edge(hgnc_620,pubmed_10806211) :- choice(62,1,X).
+edge(pubmed_10806211,hgnc_620) :- choice(62,1,X).
+1 { choice(62,1,708), choice(62,2,679) } 1.
+edge(hgnc_620,pubmed_1587857) :- choice(63,1,X).
+edge(pubmed_1587857,hgnc_620) :- choice(63,1,X).
+1 { choice(63,1,708), choice(63,2,679) } 1.
+edge(uniprot_q03157,interpro_ipr008154) :- choice(64,1,X).
+edge(interpro_ipr008154,uniprot_q03157) :- choice(64,1,X).
+1 { choice(64,1,679), choice(64,2,708) } 1.
+edge(uniprot_p12023,interpro_ipr008154) :- choice(65,1,X).
+edge(interpro_ipr008154,uniprot_p12023) :- choice(65,1,X).
+1 { choice(65,1,744), choice(65,2,645) } 1.
+edge(hgnc_620,pubmed_15036614) :- choice(66,1,X).
+edge(pubmed_15036614,hgnc_620) :- choice(66,1,X).
+1 { choice(66,1,708), choice(66,2,679) } 1.
+edge(hgnc_19695,entrezprotein_7427517) :- choice(67,1,X).
+edge(entrezprotein_7427517,hgnc_19695) :- choice(67,1,X).
+1 { choice(67,1,504), choice(67,2,926) } 1.
+edge(hgnc_620,entrezprotein_7427517) :- choice(68,1,X).
+edge(entrezprotein_7427517,hgnc_620) :- choice(68,1,X).
+1 { choice(68,1,796), choice(68,2,600) } 1.
+edge(hgnc_9165,entrezprotein_16506117) :- choice(69,1,X).
+edge(entrezprotein_16506117,hgnc_9165) :- choice(69,1,X).
+1 { choice(69,1,430), choice(69,2,1052) } 1.
+edge(hgnc_1358,homologene_74406) :- choice(70,1,X).
+edge(homologene_74406,hgnc_1358) :- choice(70,1,X).
+1 { choice(70,1,494), choice(70,2,942) } 1.
+edge(hgnc_1358,pubmed_12463754) :- choice(71,1,X).
+edge(pubmed_12463754,hgnc_1358) :- choice(71,1,X).
+1 { choice(71,1,464), choice(71,2,992) } 1.
+edge(hgnc_620,pubmed_15488330) :- choice(72,1,X).
+edge(pubmed_15488330,hgnc_620) :- choice(72,1,X).
+1 { choice(72,1,663), choice(72,2,724) } 1.
+edge(hgnc_620,pubmed_12383342) :- choice(73,1,X).
+edge(pubmed_12383342,hgnc_620) :- choice(73,1,X).
+1 { choice(73,1,663), choice(73,2,724) } 1.
+edge(hgnc_620,entrezprotein_27894366) :- choice(74,1,X).
+edge(entrezprotein_27894366,hgnc_620) :- choice(74,1,X).
+1 { choice(74,1,738), choice(74,2,650) } 1.
+edge(hgnc_620,pubmed_9843960) :- choice(75,1,X).
+edge(pubmed_9843960,hgnc_620) :- choice(75,1,X).
+1 { choice(75,1,780), choice(75,2,613) } 1.
+edge(hgnc_620,pubmed_15896298) :- choice(76,1,X).
+edge(pubmed_15896298,hgnc_620) :- choice(76,1,X).
+1 { choice(76,1,708), choice(76,2,679) } 1.
+edge(hgnc_620,pubmed_10953012) :- choice(77,1,X).
+edge(pubmed_10953012,hgnc_620) :- choice(77,1,X).
+1 { choice(77,1,663), choice(77,2,724) } 1.
+edge(hgnc_620,pubmed_2675837) :- choice(78,1,X).
+edge(pubmed_2675837,hgnc_620) :- choice(78,1,X).
+1 { choice(78,1,708), choice(78,2,679) } 1.
+edge(hgnc_620,entrezprotein_4506147) :- choice(79,1,X).
+edge(entrezprotein_4506147,hgnc_620) :- choice(79,1,X).
+1 { choice(79,1,708), choice(79,2,679) } 1.
+edge(hgnc_621,pubmed_14690597) :- choice(80,1,X).
+edge(pubmed_14690597,hgnc_621) :- choice(80,1,X).
+1 { choice(80,1,524), choice(80,2,897) } 1.
+edge(uniprot_p22792,go_go_0050821) :- choice(81,1,X).
+edge(go_go_0050821,uniprot_p22792) :- choice(81,1,X).
+1 { choice(81,1,625), choice(81,2,767) } 1.
+edge(go_go_0050821,uniprot_o00213) :- choice(82,1,X).
+edge(uniprot_o00213,go_go_0050821) :- choice(82,1,X).
+1 { choice(82,1,661), choice(82,2,727) } 1.
+edge(hgnc_620,pubmed_2783775) :- choice(83,1,X).
+edge(pubmed_2783775,hgnc_620) :- choice(83,1,X).
+1 { choice(83,1,708), choice(83,2,679) } 1.
+edge(hgnc_620,pubmed_16098972) :- choice(84,1,X).
+edge(pubmed_16098972,hgnc_620) :- choice(84,1,X).
+1 { choice(84,1,663), choice(84,2,724) } 1.
+edge(pubmed_14760718,hgnc_1358) :- choice(85,1,X).
+edge(hgnc_1358,pubmed_14760718) :- choice(85,1,X).
+1 { choice(85,1,749), choice(85,2,640) } 1.
+edge(hgnc_620,pubmed_15769509) :- choice(86,1,X).
+edge(pubmed_15769509,hgnc_620) :- choice(86,1,X).
+1 { choice(86,1,663), choice(86,2,724) } 1.
+edge(hgnc_620,pubmed_15563588) :- choice(87,1,X).
+edge(pubmed_15563588,hgnc_620) :- choice(87,1,X).
+1 { choice(87,1,738), choice(87,2,650) } 1.
+edge(hgnc_621,homologene_68370) :- choice(88,1,X).
+edge(homologene_68370,hgnc_621) :- choice(88,1,X).
+1 { choice(88,1,466), choice(88,2,988) } 1.
+edge(hgnc_9165,entrezprotein_71051460) :- choice(89,1,X).
+edge(entrezprotein_71051460,hgnc_9165) :- choice(89,1,X).
+1 { choice(89,1,430), choice(89,2,1052) } 1.
+edge(pubmed_10460257,uniprot_q03157) :- choice(90,1,X).
+edge(uniprot_q03157,pubmed_10460257) :- choice(90,1,X).
+1 { choice(90,1,541), choice(90,2,873) } 1.
+edge(pubmed_8576160,uniprot_q03157) :- choice(91,1,X).
+edge(uniprot_q03157,pubmed_8576160) :- choice(91,1,X).
+1 { choice(91,1,416), choice(91,2,1079) } 1.
+edge(hgnc_620,pubmed_14687578) :- choice(92,1,X).
+edge(pubmed_14687578,hgnc_620) :- choice(92,1,X).
+1 { choice(92,1,663), choice(92,2,724) } 1.
+edge(hgnc_3774,entrezprotein_10863873) :- choice(93,1,X).
+edge(entrezprotein_10863873,hgnc_3774) :- choice(93,1,X).
+1 { choice(93,1,609), choice(93,2,786) } 1.
+edge(entrezprotein_15342060,hgnc_621) :- choice(94,1,X).
+edge(hgnc_621,entrezprotein_15342060) :- choice(94,1,X).
+1 { choice(94,1,391), choice(94,2,1128) } 1.
+edge(entrezprotein_19923744,hgnc_621) :- choice(95,1,X).
+edge(hgnc_621,entrezprotein_19923744) :- choice(95,1,X).
+1 { choice(95,1,435), choice(95,2,1041) } 1.
+edge(entrezprotein_4502167,hgnc_621) :- choice(96,1,X).
+edge(hgnc_621,entrezprotein_4502167) :- choice(96,1,X).
+1 { choice(96,1,706), choice(96,2,681) } 1.
+edge(pubmed_12107175,hgnc_620) :- choice(97,1,X).
+edge(hgnc_620,pubmed_12107175) :- choice(97,1,X).
+1 { choice(97,1,663), choice(97,2,724) } 1.
+edge(pubmed_15728175,hgnc_620) :- choice(98,1,X).
+edge(hgnc_620,pubmed_15728175) :- choice(98,1,X).
+1 { choice(98,1,663), choice(98,2,724) } 1.
+edge(pubmed_15748844,hgnc_620) :- choice(99,1,X).
+edge(hgnc_620,pubmed_15748844) :- choice(99,1,X).
+1 { choice(99,1,708), choice(99,2,679) } 1.
+edge(pubmed_15705569,hgnc_620) :- choice(100,1,X).
+edge(hgnc_620,pubmed_15705569) :- choice(100,1,X).
+1 { choice(100,1,708), choice(100,2,679) } 1.
+edge(pubmed_12763021,hgnc_620) :- choice(101,1,X).
+edge(hgnc_620,pubmed_12763021) :- choice(101,1,X).
+1 { choice(101,1,810), choice(101,2,588) } 1.
+edge(pubmed_12091492,hgnc_620) :- choice(102,1,X).
+edge(hgnc_620,pubmed_12091492) :- choice(102,1,X).
+1 { choice(102,1,663), choice(102,2,724) } 1.
+edge(pubmed_14978032,hgnc_620) :- choice(103,1,X).
+edge(hgnc_620,pubmed_14978032) :- choice(103,1,X).
+1 { choice(103,1,663), choice(103,2,724) } 1.
+edge(pubmed_12972252,hgnc_620) :- choice(104,1,X).
+edge(hgnc_620,pubmed_12972252) :- choice(104,1,X).
+1 { choice(104,1,663), choice(104,2,724) } 1.
+edge(pubmed_11500807,hgnc_620) :- choice(105,1,X).
+edge(hgnc_620,pubmed_11500807) :- choice(105,1,X).
+1 { choice(105,1,738), choice(105,2,650) } 1.
+edge(pubmed_2569763,hgnc_620) :- choice(106,1,X).
+edge(hgnc_620,pubmed_2569763) :- choice(106,1,X).
+1 { choice(106,1,708), choice(106,2,679) } 1.
+edge(pubmed_15182369,hgnc_620) :- choice(107,1,X).
+edge(hgnc_620,pubmed_15182369) :- choice(107,1,X).
+1 { choice(107,1,762), choice(107,2,629) } 1.
+edge(pubmed_10371197,hgnc_620) :- choice(108,1,X).
+edge(hgnc_620,pubmed_10371197) :- choice(108,1,X).
+1 { choice(108,1,708), choice(108,2,679) } 1.
+edge(pubmed_10806211,hgnc_620) :- choice(109,1,X).
+edge(hgnc_620,pubmed_10806211) :- choice(109,1,X).
+1 { choice(109,1,708), choice(109,2,679) } 1.
+edge(pubmed_12659848,hgnc_620) :- choice(110,1,X).
+edge(hgnc_620,pubmed_12659848) :- choice(110,1,X).
+1 { choice(110,1,663), choice(110,2,724) } 1.
+edge(pubmed_11912199,hgnc_620) :- choice(111,1,X).
+edge(hgnc_620,pubmed_11912199) :- choice(111,1,X).
+1 { choice(111,1,780), choice(111,2,613) } 1.
+edge(pubmed_12702875,hgnc_620) :- choice(112,1,X).
+edge(hgnc_620,pubmed_12702875) :- choice(112,1,X).
+1 { choice(112,1,738), choice(112,2,650) } 1.
+edge(pubmed_12815102,hgnc_620) :- choice(113,1,X).
+edge(hgnc_620,pubmed_12815102) :- choice(113,1,X).
+1 { choice(113,1,663), choice(113,2,724) } 1.
+edge(pubmed_2538123,hgnc_620) :- choice(114,1,X).
+edge(hgnc_620,pubmed_2538123) :- choice(114,1,X).
+1 { choice(114,1,708), choice(114,2,679) } 1.
+edge(pubmed_14690498,hgnc_620) :- choice(115,1,X).
+edge(hgnc_620,pubmed_14690498) :- choice(115,1,X).
+1 { choice(115,1,663), choice(115,2,724) } 1.
+edge(pubmed_8473906,hgnc_620) :- choice(116,1,X).
+edge(hgnc_620,pubmed_8473906) :- choice(116,1,X).
+1 { choice(116,1,708), choice(116,2,679) } 1.
+edge(pubmed_12054503,hgnc_620) :- choice(117,1,X).
+edge(hgnc_620,pubmed_12054503) :- choice(117,1,X).
+1 { choice(117,1,708), choice(117,2,679) } 1.
+edge(pubmed_2507928,hgnc_620) :- choice(118,1,X).
+edge(hgnc_620,pubmed_2507928) :- choice(118,1,X).
+1 { choice(118,1,708), choice(118,2,679) } 1.
+edge(pubmed_11724784,hgnc_620) :- choice(119,1,X).
+edge(hgnc_620,pubmed_11724784) :- choice(119,1,X).
+1 { choice(119,1,738), choice(119,2,650) } 1.
+edge(pubmed_12128081,hgnc_620) :- choice(120,1,X).
+edge(hgnc_620,pubmed_12128081) :- choice(120,1,X).
+1 { choice(120,1,663), choice(120,2,724) } 1.
+edge(pubmed_15987892,hgnc_620) :- choice(121,1,X).
+edge(hgnc_620,pubmed_15987892) :- choice(121,1,X).
+1 { choice(121,1,663), choice(121,2,724) } 1.
+edge(pubmed_8855266,hgnc_620) :- choice(122,1,X).
+edge(hgnc_620,pubmed_8855266) :- choice(122,1,X).
+1 { choice(122,1,796), choice(122,2,600) } 1.
+edge(pubmed_14507922,hgnc_620) :- choice(123,1,X).
+edge(hgnc_620,pubmed_14507922) :- choice(123,1,X).
+1 { choice(123,1,780), choice(123,2,613) } 1.
+edge(pubmed_15537891,hgnc_620) :- choice(124,1,X).
+edge(hgnc_620,pubmed_15537891) :- choice(124,1,X).
+1 { choice(124,1,663), choice(124,2,724) } 1.
+edge(pubmed_15591071,hgnc_620) :- choice(125,1,X).
+edge(hgnc_620,pubmed_15591071) :- choice(125,1,X).
+1 { choice(125,1,663), choice(125,2,724) } 1.
+edge(pubmed_12435726,hgnc_620) :- choice(126,1,X).
+edge(hgnc_620,pubmed_12435726) :- choice(126,1,X).
+1 { choice(126,1,708), choice(126,2,679) } 1.
+edge(pubmed_12493731,hgnc_620) :- choice(127,1,X).
+edge(hgnc_620,pubmed_12493731) :- choice(127,1,X).
+1 { choice(127,1,708), choice(127,2,679) } 1.
+edge(pubmed_15880353,hgnc_620) :- choice(128,1,X).
+edge(hgnc_620,pubmed_15880353) :- choice(128,1,X).
+1 { choice(128,1,738), choice(128,2,650) } 1.
+edge(pubmed_15452128,hgnc_620) :- choice(129,1,X).
+edge(hgnc_620,pubmed_15452128) :- choice(129,1,X).
+1 { choice(129,1,708), choice(129,2,679) } 1.
+edge(pubmed_15923191,hgnc_620) :- choice(130,1,X).
+edge(hgnc_620,pubmed_15923191) :- choice(130,1,X).
+1 { choice(130,1,708), choice(130,2,679) } 1.
+edge(pubmed_14523627,hgnc_620) :- choice(131,1,X).
+edge(hgnc_620,pubmed_14523627) :- choice(131,1,X).
+1 { choice(131,1,708), choice(131,2,679) } 1.
+edge(pubmed_15936948,hgnc_620) :- choice(132,1,X).
+edge(hgnc_620,pubmed_15936948) :- choice(132,1,X).
+1 { choice(132,1,708), choice(132,2,679) } 1.
+edge(pubmed_12230982,hgnc_620) :- choice(133,1,X).
+edge(hgnc_620,pubmed_12230982) :- choice(133,1,X).
+1 { choice(133,1,708), choice(133,2,679) } 1.
+edge(pubmed_15251442,hgnc_620) :- choice(134,1,X).
+edge(hgnc_620,pubmed_15251442) :- choice(134,1,X).
+1 { choice(134,1,663), choice(134,2,724) } 1.
+edge(pubmed_10329371,hgnc_620) :- choice(135,1,X).
+edge(hgnc_620,pubmed_10329371) :- choice(135,1,X).
+1 { choice(135,1,738), choice(135,2,650) } 1.
+edge(pubmed_11927537,hgnc_620) :- choice(136,1,X).
+edge(hgnc_620,pubmed_11927537) :- choice(136,1,X).
+1 { choice(136,1,796), choice(136,2,600) } 1.
+edge(pubmed_15073156,hgnc_620) :- choice(137,1,X).
+edge(hgnc_620,pubmed_15073156) :- choice(137,1,X).
+1 { choice(137,1,708), choice(137,2,679) } 1.
+edge(pubmed_12433268,hgnc_620) :- choice(138,1,X).
+edge(hgnc_620,pubmed_12433268) :- choice(138,1,X).
+1 { choice(138,1,663), choice(138,2,724) } 1.
+edge(pubmed_15450086,hgnc_620) :- choice(139,1,X).
+edge(hgnc_620,pubmed_15450086) :- choice(139,1,X).
+1 { choice(139,1,663), choice(139,2,724) } 1.
+edge(pubmed_12472467,hgnc_620) :- choice(140,1,X).
+edge(hgnc_620,pubmed_12472467) :- choice(140,1,X).
+1 { choice(140,1,663), choice(140,2,724) } 1.
+edge(pubmed_10973933,hgnc_620) :- choice(141,1,X).
+edge(hgnc_620,pubmed_10973933) :- choice(141,1,X).
+1 { choice(141,1,708), choice(141,2,679) } 1.
+edge(entrezprotein_28526,hgnc_620) :- choice(142,1,X).
+edge(hgnc_620,entrezprotein_28526) :- choice(142,1,X).
+1 { choice(142,1,663), choice(142,2,724) } 1.
+edge(entrezprotein_58802459,hgnc_620) :- choice(143,1,X).
+edge(hgnc_620,entrezprotein_58802459) :- choice(143,1,X).
+1 { choice(143,1,663), choice(143,2,724) } 1.
+edge(entrezprotein_929612,hgnc_620) :- choice(144,1,X).
+edge(hgnc_620,entrezprotein_929612) :- choice(144,1,X).
+1 { choice(144,1,663), choice(144,2,724) } 1.
+edge(entrezprotein_4502947,hgnc_620) :- choice(145,1,X).
+edge(hgnc_620,entrezprotein_4502947) :- choice(145,1,X).
+1 { choice(145,1,893), choice(145,2,527) } 1.
+edge(entrezprotein_178615,hgnc_620) :- choice(146,1,X).
+edge(hgnc_620,entrezprotein_178615) :- choice(146,1,X).
+1 { choice(146,1,663), choice(146,2,724) } 1.
+edge(entrezprotein_2429081,hgnc_620) :- choice(147,1,X).
+edge(hgnc_620,entrezprotein_2429081) :- choice(147,1,X).
+1 { choice(147,1,663), choice(147,2,724) } 1.
+edge(entrezprotein_33339674,hgnc_620) :- choice(148,1,X).
+edge(hgnc_620,entrezprotein_33339674) :- choice(148,1,X).
+1 { choice(148,1,663), choice(148,2,724) } 1.
+edge(entrezprotein_17986277,hgnc_620) :- choice(149,1,X).
+edge(hgnc_620,entrezprotein_17986277) :- choice(149,1,X).
+1 { choice(149,1,867), choice(149,2,545) } 1.
+edge(entrezprotein_8176534,hgnc_620) :- choice(150,1,X).
+edge(hgnc_620,entrezprotein_8176534) :- choice(150,1,X).
+1 { choice(150,1,663), choice(150,2,724) } 1.
+edge(entrezprotein_50659080,hgnc_620) :- choice(151,1,X).
+edge(hgnc_620,entrezprotein_50659080) :- choice(151,1,X).
+1 { choice(151,1,762), choice(151,2,629) } 1.
+edge(entrezprotein_41350937,hgnc_620) :- choice(152,1,X).
+edge(hgnc_620,entrezprotein_41350937) :- choice(152,1,X).
+1 { choice(152,1,663), choice(152,2,724) } 1.
+edge(entrezprotein_41350939,hgnc_620) :- choice(153,1,X).
+edge(hgnc_620,entrezprotein_41350939) :- choice(153,1,X).
+1 { choice(153,1,663), choice(153,2,724) } 1.
+edge(entrezprotein_871360,hgnc_620) :- choice(154,1,X).
+edge(hgnc_620,entrezprotein_871360) :- choice(154,1,X).
+1 { choice(154,1,663), choice(154,2,724) } 1.
+edge(entrezprotein_10863873,hgnc_620) :- choice(155,1,X).
+edge(hgnc_620,entrezprotein_10863873) :- choice(155,1,X).
+1 { choice(155,1,881), choice(155,2,535) } 1.
+edge(entrezprotein_19528657,hgnc_620) :- choice(156,1,X).
+edge(hgnc_620,entrezprotein_19528657) :- choice(156,1,X).
+1 { choice(156,1,738), choice(156,2,650) } 1.
+edge(hgnc_11140,entrezprotein_4758942) :- choice(157,1,X).
+edge(entrezprotein_4758942,hgnc_11140) :- choice(157,1,X).
+1 { choice(157,1,500), choice(157,2,933) } 1.
+edge(hgnc_9165,entrezprotein_16506115) :- choice(158,1,X).
+edge(entrezprotein_16506115,hgnc_9165) :- choice(158,1,X).
+1 { choice(158,1,430), choice(158,2,1052) } 1.
+edge(hgnc_5394,pubmed_2954545) :- choice(159,1,X).
+edge(pubmed_2954545,hgnc_5394) :- choice(159,1,X).
+1 { choice(159,1,493), choice(159,2,944) } 1.
+edge(hgnc_2313,uniprot_p22792) :- choice(160,1,X).
+edge(uniprot_p22792,hgnc_2313) :- choice(160,1,X).
+1 { choice(160,1,541), choice(160,2,872) } 1.
+edge(interpro_ipr007829,uniprot_q9bx74) :- choice(161,1,X).
+edge(uniprot_q9bx74,interpro_ipr007829) :- choice(161,1,X).
+1 { choice(161,1,521), choice(161,2,901) } 1.
+edge(hgnc_24142,uniprot_q9bx74) :- choice(162,1,X).
+edge(uniprot_q9bx74,hgnc_24142) :- choice(162,1,X).
+1 { choice(162,1,472), choice(162,2,977) } 1.
+edge(hgnc_9165,pubmed_15116257) :- choice(163,1,X).
+edge(pubmed_15116257,hgnc_9165) :- choice(163,1,X).
+1 { choice(163,1,504), choice(163,2,926) } 1.
+edge(hgnc_620,pubmed_11580253) :- choice(164,1,X).
+edge(pubmed_11580253,hgnc_620) :- choice(164,1,X).
+1 { choice(164,1,663), choice(164,2,724) } 1.
+edge(hgnc_620,pubmed_11827488) :- choice(165,1,X).
+edge(pubmed_11827488,hgnc_620) :- choice(165,1,X).
+1 { choice(165,1,738), choice(165,2,650) } 1.
+edge(hgnc_620,pubmed_15530662) :- choice(166,1,X).
+edge(pubmed_15530662,hgnc_620) :- choice(166,1,X).
+1 { choice(166,1,663), choice(166,2,724) } 1.
+edge(entrezprotein_4502167,hgnc_9486) :- choice(167,1,X).
+edge(hgnc_9486,entrezprotein_4502167) :- choice(167,1,X).
+1 { choice(167,1,725), choice(167,2,662) } 1.
+edge(hgnc_9087,entrezprotein_32171186) :- choice(168,1,X).
+edge(entrezprotein_32171186,hgnc_9087) :- choice(168,1,X).
+1 { choice(168,1,535), choice(168,2,881) } 1.
+edge(entrezprotein_17986277,hgnc_15855) :- choice(169,1,X).
+edge(hgnc_15855,entrezprotein_17986277) :- choice(169,1,X).
+1 { choice(169,1,649), choice(169,2,739) } 1.
+edge(hgnc_620,pubmed_15044485) :- choice(170,1,X).
+edge(pubmed_15044485,hgnc_620) :- choice(170,1,X).
+1 { choice(170,1,738), choice(170,2,650) } 1.
+edge(hgnc_620,pubmed_15126508) :- choice(171,1,X).
+edge(pubmed_15126508,hgnc_620) :- choice(171,1,X).
+1 { choice(171,1,738), choice(171,2,650) } 1.
+edge(hgnc_24142,pubmed_15126508) :- choice(172,1,X).
+edge(pubmed_15126508,hgnc_24142) :- choice(172,1,X).
+1 { choice(172,1,388), choice(172,2,1134) } 1.
+edge(hgnc_1358,pubmed_7523406) :- choice(173,1,X).
+edge(pubmed_7523406,hgnc_1358) :- choice(173,1,X).
+1 { choice(173,1,464), choice(173,2,992) } 1.
+edge(hgnc_11140,entrezprotein_4507109) :- choice(174,1,X).
+edge(entrezprotein_4507109,hgnc_11140) :- choice(174,1,X).
+1 { choice(174,1,581), choice(174,2,820) } 1.
+edge(pubmed_11278849,uniprot_q9h651) :- choice(175,1,X).
+edge(uniprot_q9h651,pubmed_11278849) :- choice(175,1,X).
+1 { choice(175,1,439), choice(175,2,1036) } 1.
+edge(hgnc_620,pubmed_11958860) :- choice(176,1,X).
+edge(pubmed_11958860,hgnc_620) :- choice(176,1,X).
+1 { choice(176,1,663), choice(176,2,724) } 1.
+edge(hgnc_9165,entrezprotein_4099597) :- choice(177,1,X).
+edge(entrezprotein_4099597,hgnc_9165) :- choice(177,1,X).
+1 { choice(177,1,430), choice(177,2,1052) } 1.
+edge(hgnc_620,pubmed_15234966) :- choice(178,1,X).
+edge(pubmed_15234966,hgnc_620) :- choice(178,1,X).
+1 { choice(178,1,708), choice(178,2,679) } 1.
+edge(hgnc_11140,pubmed_11812782) :- choice(179,1,X).
+edge(pubmed_11812782,hgnc_11140) :- choice(179,1,X).
+1 { choice(179,1,476), choice(179,2,971) } 1.
+edge(hgnc_620,pubmed_10801777) :- choice(180,1,X).
+edge(pubmed_10801777,hgnc_620) :- choice(180,1,X).
+1 { choice(180,1,708), choice(180,2,679) } 1.
+edge(hgnc_620,pubmed_12433268) :- choice(181,1,X).
+edge(pubmed_12433268,hgnc_620) :- choice(181,1,X).
+1 { choice(181,1,663), choice(181,2,724) } 1.
+edge(uniprot_q9h651,interpro_ipr007829) :- choice(182,1,X).
+edge(interpro_ipr007829,uniprot_q9h651) :- choice(182,1,X).
+1 { choice(182,1,495), choice(182,2,940) } 1.
+edge(hgnc_620,pubmed_12917434) :- choice(183,1,X).
+edge(pubmed_12917434,hgnc_620) :- choice(183,1,X).
+1 { choice(183,1,738), choice(183,2,650) } 1.
+edge(pubmed_11856322,hgnc_983) :- choice(184,1,X).
+edge(hgnc_983,pubmed_11856322) :- choice(184,1,X).
+1 { choice(184,1,59), choice(184,2,2863) } 1.
+edge(pubmed_11569538,hgnc_983) :- choice(185,1,X).
+edge(hgnc_983,pubmed_11569538) :- choice(185,1,X).
+1 { choice(185,1,59), choice(185,2,2863) } 1.
+edge(pubmed_8930175,hgnc_983) :- choice(186,1,X).
+edge(hgnc_983,pubmed_8930175) :- choice(186,1,X).
+1 { choice(186,1,59), choice(186,2,2863) } 1.
+edge(pubmed_11749053,hgnc_983) :- choice(187,1,X).
+edge(hgnc_983,pubmed_11749053) :- choice(187,1,X).
+1 { choice(187,1,59), choice(187,2,2863) } 1.
+edge(pubmed_15781196,hgnc_983) :- choice(188,1,X).
+edge(hgnc_983,pubmed_15781196) :- choice(188,1,X).
+1 { choice(188,1,59), choice(188,2,2863) } 1.
+edge(pubmed_12811800,hgnc_983) :- choice(189,1,X).
+edge(hgnc_983,pubmed_12811800) :- choice(189,1,X).
+1 { choice(189,1,103), choice(189,2,2324) } 1.
+edge(pubmed_3035536,hgnc_983) :- choice(190,1,X).
+edge(hgnc_983,pubmed_3035536) :- choice(190,1,X).
+1 { choice(190,1,134), choice(190,2,2080) } 1.
+edge(pubmed_14760718,hgnc_983) :- choice(191,1,X).
+edge(hgnc_983,pubmed_14760718) :- choice(191,1,X).
+1 { choice(191,1,389), choice(191,2,1133) } 1.
+edge(entrezprotein_1311630,hgnc_983) :- choice(192,1,X).
+edge(hgnc_983,entrezprotein_1311630) :- choice(192,1,X).
+1 { choice(192,1,59), choice(192,2,2863) } 1.
+edge(uniprot_q6lam0,hgnc_5394) :- choice(193,1,X).
+edge(hgnc_5394,uniprot_q6lam0) :- choice(193,1,X).
+1 { choice(193,1,554), choice(193,2,855) } 1.
+edge(pubmed_14760718,hgnc_5394) :- choice(194,1,X).
+edge(hgnc_5394,pubmed_14760718) :- choice(194,1,X).
+1 { choice(194,1,725), choice(194,2,662) } 1.
+edge(pubmed_8613545,hgnc_5394) :- choice(195,1,X).
+edge(hgnc_5394,pubmed_8613545) :- choice(195,1,X).
+1 { choice(195,1,439), choice(195,2,1035) } 1.
+edge(pubmed_1401896,hgnc_5394) :- choice(196,1,X).
+edge(hgnc_5394,pubmed_1401896) :- choice(196,1,X).
+1 { choice(196,1,470), choice(196,2,982) } 1.
+edge(entrezprotein_5091478,hgnc_5394) :- choice(197,1,X).
+edge(hgnc_5394,entrezprotein_5091478) :- choice(197,1,X).
+1 { choice(197,1,395), choice(197,2,1120) } 1.
+edge(entrezprotein_4502167,hgnc_24142) :- choice(198,1,X).
+edge(hgnc_24142,entrezprotein_4502167) :- choice(198,1,X).
+1 { choice(198,1,628), choice(198,2,763) } 1.
+edge(go_go_0001540,uniprot_q99mb3) :- choice(199,1,X).
+edge(uniprot_q99mb3,go_go_0001540) :- choice(199,1,X).
+1 { choice(199,1,579), choice(199,2,822) } 1.
+edge(hgnc_620,entrezprotein_178616) :- choice(200,1,X).
+edge(entrezprotein_178616,hgnc_620) :- choice(200,1,X).
+1 { choice(200,1,663), choice(200,2,724) } 1.
+
+% path(hgnc_620,hgnc_983).
+

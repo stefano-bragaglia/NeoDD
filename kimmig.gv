@@ -1,0 +1,119 @@
+digraph Neo {
+  node [
+    fontsize = "8"
+    shape = "Mrecord"
+    fontname = "Bitstream Vera Sans"
+  ]
+  edge [
+    fontname = "Bitstream Vera Sans"
+    fontsize = "8"
+  ]
+  N0 [
+    label = "{Node\[0\]'name' = 'hgnc_620' : String\l}"
+  ]
+  N0 -> N1 [
+    label = "EDGE\n'prob' = 0.5153031039951417 : double\l"
+  ]
+  N0 -> N10 [
+    label = "EDGE\n'prob' = 0.43041733261490667 : double\l"
+  ]
+  N0 -> N20 [
+    label = "EDGE\n'prob' = 0.9021269734815165 : double\l"
+  ]
+  N1 [
+    label = "{Node\[1\]'name' = 'entrezprotein_33339674' : String\l}"
+  ]
+  N2 [
+    label = "{Node\[2\]'name' = 'hgnc_9165' : String\l}"
+  ]
+  N2 -> N3 [
+    label = "EDGE\n'prob' = 0.6041093828558647 : double\l"
+  ]
+  N3 [
+    label = "{Node\[3\]'name' = 'pubmed_15214843' : String\l}"
+  ]
+  N4 [
+    label = "{Node\[4\]'name' = 'hgnc_621' : String\l}"
+  ]
+  N4 -> N5 [
+    label = "EDGE\n'prob' = 0.6472646670780347 : double\l"
+  ]
+  N5 [
+    label = "{Node\[5\]'name' = 'entrezprotein_3342564' : String\l}"
+  ]
+  N6 [
+    label = "{Node\[6\]'name' = 'uniprot_o00213' : String\l}"
+  ]
+  N6 -> N7 [
+    label = "EDGE\n'prob' = 0.5106861833661879 : double\l"
+  ]
+  N7 [
+    label = "{Node\[7\]'name' = 'go_go_0001540' : String\l}"
+  ]
+  N8 [
+    label = "{Node\[8\]'name' = 'hgnc_983' : String\l}"
+  ]
+  N8 -> N9 [
+    label = "EDGE\n'prob' = 0.9021269734815165 : double\l"
+  ]
+  N8 -> N19 [
+    label = "EDGE\n'prob' = 0.9021269734815165 : double\l"
+  ]
+  N9 [
+    label = "{Node\[9\]'name' = 'pubmed_2322535' : String\l}"
+  ]
+  N10 [
+    label = "{Node\[10\]'name' = 'pubmed_9136074' : String\l}"
+  ]
+  N11 [
+    label = "{Node\[11\]'name' = 'uniprot_o75882' : String\l}"
+  ]
+  N11 -> N12 [
+    label = "EDGE\n'prob' = 0.4737857801759698 : double\l"
+  ]
+  N12 [
+    label = "{Node\[12\]'name' = 'pubmed_14760718' : String\l}"
+  ]
+  N13 [
+    label = "{Node\[13\]'name' = 'hgnc_2313' : String\l}"
+  ]
+  N13 -> N12 [
+    label = "EDGE\n'prob' = 0.5341919754714841 : double\l"
+  ]
+  N13 -> N21 [
+    label = "EDGE\n'prob' = 0.7430440123619398 : double\l"
+  ]
+  N14 [
+    label = "{Node\[14\]'name' = 'hgnc_1358' : String\l}"
+  ]
+  N14 -> N12 [
+    label = "EDGE\n'prob' = 0.47283915555577954 : double\l"
+  ]
+  N15 [
+    label = "{Node\[15\]'name' = 'hgnc_5394' : String\l}"
+  ]
+  N15 -> N16 [
+    label = "EDGE\n'prob' = 0.6736800392488677 : double\l"
+  ]
+  N16 [
+    label = "{Node\[16\]'name' = 'entrezprotein_182607' : String\l}"
+  ]
+  N17 [
+    label = "{Node\[17\]'name' = 'hgnc_9087' : String\l}"
+  ]
+  N17 -> N18 [
+    label = "EDGE\n'prob' = 0.7068053282577494 : double\l"
+  ]
+  N18 [
+    label = "{Node\[18\]'name' = 'pubmed_7622043' : String\l}"
+  ]
+  N19 [
+    label = "{Node\[19\]'name' = 'pubmed_1769657' : String\l}"
+  ]
+  N20 [
+    label = "{Node\[20\]'name' = 'pubmed_2507928' : String\l}"
+  ]
+  N21 [
+    label = "{Node\[21\]'name' = 'entrezprotein_27769064' : String\l}"
+  ]
+}

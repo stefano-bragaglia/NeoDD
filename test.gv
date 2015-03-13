@@ -1,0 +1,66 @@
+digraph Neo {
+  node [
+    fontsize = "10"
+    // shape = "Mrecord"
+    fontname = "Bitstream Vera Sans"
+  ]
+  edge [
+    fontname = "Bitstream Vera Sans"
+    fontsize = "8"
+    splines = curved
+  ]
+  N0 [
+    style = filled
+    fillcolor = lightgrey
+    shape = squared
+    label = "0"
+  ]
+  N1 [
+    style = filled
+    fillcolor = lightgrey
+    shape = squared
+    label = "1"
+  ]
+  N2 [
+    shape = circle
+    label = "X2"
+  ]
+  N2 -> N1 [
+    label = "0.5"
+  ]
+  N2 -> N4 [
+    style=dashed,label = "0.5"
+  ]
+  N3 [
+    style = filled
+    fillcolor = lightyellow
+    shape = circle
+    label = "X3"
+  ]
+  N3 -> N2 [
+    label = "0.1"
+  ]
+  N3 -> N0 [
+    style=dashed,label = "0.9"
+  ]
+  N4 [
+    shape = circle
+    label = "X4"
+  ]
+  N4 -> N5 [
+    label = "0.4"
+  ]
+  N4 -> N0 [
+    style=dashed,label = "0.6"
+  ]
+  N5 [
+    shape = circle
+    label = "X5"
+  ]
+  N5 -> N1 [
+    label = "0.5"
+  ]
+  N5 -> N0 [
+    style=dashed,label = "0.5"
+  ]
+}
